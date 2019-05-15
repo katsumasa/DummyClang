@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-DRUNTIME_IL2CPP -DLINUX -DANDROID -DPLATFORM_ANDROID -D__linux__ -I"C:\Program Files\Unity_2017_3_0_f3\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\bdwgc\include" -I"C:\Program Files\Unity_2017_3_0_f3\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\libil2cpp\include" -I"C:\Program Files\Unity_2017_3_0_f3\Editor\Data\il2cpp\libil2cpp" -I"C:\Program Files\Unity_2017_3_0_f3\Editor\Data\il2cpp\external\boehmgc\include" -I"D:\Projects\SurvivalShooter2017\Temp\StagingArea\Il2Cpp\il2cppOutput" -I"." -I"D:\home\Project\Booster\App\Tool\External\android-ndk-r13b\sources\cxx-stl\gnu-libstdc++\4.9\include" -I"D:\home\Project\Booster\App\Tool\External\android-ndk-r13b\sources\cxx-stl\gnu-libstdc++\4.9\include\backward" -I"D:\home\Project\Booster\App\Tool\External\android-ndk-r13b\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include" -c -g -DNDEBUG -funwind-tables -fno-limit-debug-info -fPIC -fdata-sections -ffunction-sections -Wa,--noexecstack -fno-rtti -std=c++98 -fno-strict-aliasing -fvisibility=hidden -fvisibility-inlines-hidden -fno-strict-overflow -fvisibility=default -fPIE -Os --sysroot "D:\home\Project\Booster\App\Tool\External\android-ndk-r13b\platforms\android-16\arch-arm" -gcc-toolchain "D:\home\Project\Booster\App\Tool\External\android-ndk-r13b\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64" -target armv7-none-linux-androideabi -mfpu=neon -Wno-shift-negative-value -march=armv7-a -mfloat-abi=softfp -mfpu=vfp "D:\Projects\SurvivalShooter2017\Temp\StagingArea\Il2Cpp\il2cppOutput\Bulk_Generics_0.cpp" -o "D:\Projects\SurvivalShooter2017\Library\il2cpp_android_armeabi-v7a\il2cpp_cache\8F6CCEF9C306F63A1D1759682C8D94FA.o"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NXTargetSerialNumber />
+    <NXTargetName>Default</NXTargetName>
+  </PropertyGroup>
+</Project>
