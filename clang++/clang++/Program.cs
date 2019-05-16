@@ -15,10 +15,12 @@ namespace clang__
 {
     class Program
     {
-
+        // 引数置き換え用のテーブル
+        // {"置き換え前の文字列","置き換え後の文字列"},
         static string[,] replaceWordTbl = new string[,]
         {
-          {"-fvisibility=default",""}, // 置き換えるオプション
+          {"-fvisibility=default",""},                          // -fvisibility=default を削除
+//            {"-fvisibility=hidden","-fvisibility=default"},   // -fvisibility=hiddenを-fvisibility=default　に置き換え
         };
 
 
